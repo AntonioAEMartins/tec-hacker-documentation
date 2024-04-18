@@ -19,3 +19,4 @@ Para contribuir para este repositório, siga os passos abaixo:
 2. Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`
 3. Faça push para a sua branch: `git push origin minha-feature`
 4. Abra um Pull Request
+
