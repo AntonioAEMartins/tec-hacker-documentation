@@ -1,7 +1,8 @@
 # Documentação - Tecnologias Hacker
+
 ## Antônio Martins e Enricco Gemha
 
-### 1. Contatos
+### 1. Mantenedores
 
 - Antônio Martins: [GitHub](https://github.com/AntonioAEMartins)
 
@@ -9,7 +10,7 @@
 
 ### 2. Introdução
 
-Este repositório têm como objetivo servir de documentação para a matéria de Tecnologias Hacker.
+Este repositório têm como objetivo servir de documentação para a matéria de Tecnologias Hacker, pertencente à grade curricular obrigatória do 7º semestre do curso de Engenharia de Computação do Insper Instituto de Ensino e Pesquisa.
 
 ### 3. Contribuições
 
@@ -19,4 +20,3 @@ Para contribuir para este repositório, siga os passos abaixo:
 2. Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`
 3. Faça push para a sua branch: `git push origin minha-feature`
 4. Abra um Pull Request
-

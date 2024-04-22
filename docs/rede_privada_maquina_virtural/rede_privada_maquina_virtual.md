@@ -6,7 +6,7 @@ Na matéria de Tecnologias Hacker, haverá a necessidade, em múltiplos momentos
 
 Para contornar este problema é possível utilizar no Paralles Desktop e UTM a funcionalidade de rede privada, que permite a comunicação entre as máquinas virtuais - e, caso necessário, entre o computador hospedeiro.
 
-Caso você tenha computadores `Windows` este guia **NÃO** terá utilidade para você, pois o Parallels Desktop e o UTM são exclusivos para `macOS`.
+Caso você tenha computadores `Windows` este guia **NÃO** terá utilidade para você, pois o Parallels Desktop e o UTM são exclusivos do `macOS`.
 
 **Para análise de vunerabilidades, e uso de ferramentas especificas é possível que a rede da universidade bloqueie seu acesso, havendo a necessidade de se utilizar rede celular.**
 

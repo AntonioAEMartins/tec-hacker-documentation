@@ -22,7 +22,7 @@ Para a conversão será necessária a instalação do qemu, para realizar a conv
 
 ### 3.1. Desempacotando o arquivo .ova
 
-Comece desempacotando o arquivo .ova: 
+Comece desempacotando o arquivo .ova:
 
 ```sh
 tar -xvf nome_do_arquivo.ova
@@ -40,11 +40,15 @@ qemu-img convert -O qcow2 nome_do_arquivo-disk001.vmdk output.qcow2
 
 Utilizando o UTM, clique em `+` para criar uma nova VM.
 
-![UTM new](./assets/utm1.png)
+![UTM](./assets/utm1.jpeg)
 
-Utilizando o UTM, clique em `+` para criar uma nova VM.
+Agora selecione a opção de **emulação**, caso seu Mac possua um chip da série M (ARM64), pois a imagem fornecida pelo professor está compilada para x86_64.
 
-!
+![UTM](./assets/utm2.png)
+
+Selecione o OS **Linux**.
+
+![UTM](./assets/utm3.png)
 
 ## 4. Conversão para Parallels Desktop
 
