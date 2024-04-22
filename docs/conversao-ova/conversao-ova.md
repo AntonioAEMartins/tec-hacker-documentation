@@ -46,9 +46,46 @@ Agora selecione a opção de **emulação**, caso seu Mac possua um chip da sér
 
 ![UTM](./assets/utm2.png)
 
-Selecione o OS **Linux**.
+Selecione a opção de OS **Other**.
 
 ![UTM](./assets/utm3.png)
+
+Marque a caixa de **Skip ISO boot** e clique em continuar.
+
+![UTM](./assets/utm4.png)
+
+Na secção Hardware é possível configurar os detalhes da sua VM.
+Neste caso como a máquina será somente invadida, podemos colocar o padrão.
+
+![UTM](./assets/utm5.png)
+
+O mesmo pensamento pode ser aplicado para o Armazenamento.
+
+![UTM](./assets/utm6.png)
+
+Quanto a pasta compartilhada, é irrelevante.
+
+![UTM](./assets/utm7.png)
+
+Marque a opção de **VM settings** e clique em continuar.
+
+![UTM](./assets/utm8.png)
+
+Na secção QEMU, desmarque a caixa de **UEFI Boot**.
+
+![UTM](./assets/utm9.png)
+
+Em **Drives**, selecione o IDE Drive e clique em **Delete Driver**.
+
+![UTM](./assets/utm10.png)
+
+Clique em **New** na secção **Drives**.
+
+![UTM](./assets/utm11.png)
+
+Selecione **Import...** e importe a imagem **.vmdk** que você criou nos passos anteriores. E clique em **Save** para finalizar a configuração.
+
+![UTM](./assets/utm12.png)
 
 ## 4. Conversão para Parallels Desktop
 
