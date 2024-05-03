@@ -1,4 +1,4 @@
-# Guia para Conversão de VirtualBox para UTM e Parallels Desktop
+# Conversão de VirtualBox (.ova/.vmdk) para UTM e Parallels Desktop
 
 ## 1. Introdução
 
@@ -6,11 +6,9 @@ Este guia tem como objetivo auxiliar na conversão de máquinas virtuais criadas
 
 ### 1.1. Conceitos Básicos
 
-- **VirtualBox:** é um software de virtualização de código aberto, que permite a criação de máquinas virtuais em diversos sistemas operacionais. É amplamente utilizado em sistemas host de Windows e Linux. Ele utiliza o formato _.ova_/_.vbx_ para suas máquinas virtuais;
-
-- **UTM:** é um software de virtualização para sistemas MacOS, que permite a criação de máquinas virtuais dentro do ecossistema Apple. Seu uso é ideal para Macs com chips da linha M (M1, M2, M3, ...). Ele utiliza o formato _.qemu_ para suas máquinas virtuais;
-
-- **Paralles Desktop:** é um software de virtualização para sistemas MacOS, que permite  criação de máquinas virtuais Linux, Windows ou MacOS. Seu uso é ideal para Macs com chips Intel (i3, i5, i7, i9, ...).
+* **VirtualBox:** é um software de virtualização de código aberto, que permite a criação de máquinas virtuais em diversos sistemas operacionais. É amplamente utilizado em sistemas host de Windows e Linux. Ele utiliza o formato _.ova_/_.vbx_ para suas máquinas virtuais;
+* **UTM:** é um software de virtualização para sistemas MacOS, que permite a criação de máquinas virtuais dentro do ecossistema Apple. Seu uso é ideal para Macs com chips da linha M (M1, M2, M3, ...). Ele utiliza o formato _.qemu_ para suas máquinas virtuais;
+* **Paralles Desktop:** é um software de virtualização para sistemas MacOS, que permite criação de máquinas virtuais Linux, Windows ou MacOS. Seu uso é ideal para Macs com chips Intel (i3, i5, i7, i9, ...).
 
 ## 2. Passos em Comum
 
@@ -40,52 +38,51 @@ qemu-img convert -O qcow2 nome_do_arquivo-disk001.vmdk output.qcow2
 
 Utilizando o UTM, clique em `+` para criar uma nova VM.
 
-![UTM](./assets/utm1.jpeg)
+![UTM](conversao-ova/assets/utm1.jpeg)
 
-Agora selecione a opção de **emulação**, caso seu Mac possua um chip da série M (ARM64), pois a imagem fornecida pelo professor está compilada para x86_64.
+Agora selecione a opção de **emulação**, caso seu Mac possua um chip da série M (ARM64), pois a imagem fornecida pelo professor está compilada para x86\_64.
 
-![UTM](./assets/utm2.png)
+![UTM](conversao-ova/assets/utm2.png)
 
 Selecione a opção de OS **Other**.
 
-![UTM](./assets/utm3.png)
+![UTM](conversao-ova/assets/utm3.png)
 
 Marque a caixa de **Skip ISO boot** e clique em continuar.
 
-![UTM](./assets/utm4.png)
+![UTM](conversao-ova/assets/utm4.png)
 
-Na secção Hardware é possível configurar os detalhes da sua VM.
-Neste caso como a máquina será somente invadida, podemos colocar o padrão.
+Na secção Hardware é possível configurar os detalhes da sua VM. Neste caso como a máquina será somente invadida, podemos colocar o padrão.
 
-![UTM](./assets/utm5.png)
+![UTM](conversao-ova/assets/utm5.png)
 
 O mesmo pensamento pode ser aplicado para o Armazenamento.
 
-![UTM](./assets/utm6.png)
+![UTM](conversao-ova/assets/utm6.png)
 
 Quanto a pasta compartilhada, é irrelevante.
 
-![UTM](./assets/utm7.png)
+![UTM](conversao-ova/assets/utm7.png)
 
 Marque a opção de **VM settings** e clique em continuar.
 
-![UTM](./assets/utm8.png)
+![UTM](conversao-ova/assets/utm8.png)
 
 Na secção QEMU, desmarque a caixa de **UEFI Boot**.
 
-![UTM](./assets/utm9.png)
+![UTM](conversao-ova/assets/utm9.png)
 
 Em **Drives**, selecione o IDE Drive e clique em **Delete Driver**.
 
-![UTM](./assets/utm10.png)
+![UTM](conversao-ova/assets/utm10.png)
 
 Clique em **New** na secção **Drives**.
 
-![UTM](./assets/utm11.png)
+![UTM](conversao-ova/assets/utm11.png)
 
 Selecione **Import...** e importe a imagem **.vmdk** que você criou nos passos anteriores. E clique em **Save** para finalizar a configuração.
 
-![UTM](./assets/utm12.png)
+![UTM](conversao-ova/assets/utm12.png)
 
 ## 4. Conversão para Parallels Desktop
 
@@ -95,11 +92,11 @@ Para a conversão será necessária a instalação do OVFTool da VMware, dispon�
 
 Para a instalação do OVFTool será necessária a criação de uma conta no site da VMware. Após a criação da conta, será possível baixar o arquivo _.dmg_ do OVFTool.
 
-![VMware OVFTool Download](./assets/vmware-login.png)
+![VMware OVFTool Download](conversao-ova/assets/vmware-login.png)
 
-![VMware Login or Signup](./assets/vmware-login-signup.png)
+![VMware Login or Signup](conversao-ova/assets/vmware-login-signup.png)
 
-![OVFTool DMG](./assets/ovftool-installer.png)
+![OVFTool DMG](conversao-ova/assets/ovftool-installer.png)
 
 Ao executar o arquivo _.dmg_ será possível instalar o OVFTool no MacOS.
 

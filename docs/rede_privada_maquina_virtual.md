@@ -1,4 +1,4 @@
-# Guia para Acessar Máquinas Virtuais do Parallels Desktop e UTM
+# Acesso das Máquinas Virtuais do Parallels Desktop e UTM
 
 ## 1. Introdução
 
@@ -14,32 +14,32 @@ Caso você tenha computadores `Windows` este guia **NÃO** terá utilidade para 
 
 Para alterar a configuração de rede do Parallels Desktop, siga os passos abaixo:
 
-![Parallels Instances](./assets/parallels-instances.png)
+![Parallels Instances](rede\_privada\_maquina\_virtural/assets/parallels-instances.png)
 
-![Parallels Network Configuration](./assets/parallels-configuration-network.png)
+![Parallels Network Configuration](rede\_privada\_maquina\_virtural/assets/parallels-configuration-network.png)
 
-![Parallels Network Shared](./assets/parallels-configuration-shared.png)
+![Parallels Network Shared](rede\_privada\_maquina\_virtural/assets/parallels-configuration-shared.png)
 
-![Parallels Network Private](./assets/parallels-network-selection.png)
+![Parallels Network Private](rede\_privada\_maquina\_virtural/assets/parallels-network-selection.png)
 
 ## 3. UTM
 
-![UTM Instances](./assets/utm-instances.jpeg)
+![UTM Instances](rede\_privada\_maquina\_virtural/assets/utm-instances.jpeg)
 
 Clique com o botão direito na máquina virtual que deseja configurar a rede e clique em `Edit`.
 
-![UTM Edit](./assets/utm-edit.jpeg)
+![UTM Edit](rede\_privada\_maquina\_virtural/assets/utm-edit.jpeg)
 
-![UTM Configuration](./assets/utm-config-network.jpeg)
+![UTM Configuration](rede\_privada\_maquina\_virtural/assets/utm-config-network.jpeg)
 
-![UTM Shared Network](./assets/utm-shared-network.jpeg)
+![UTM Shared Network](rede\_privada\_maquina\_virtural/assets/utm-shared-network.jpeg)
 
-![UTM Shared Network Selector](./assets/utm-config-shared-network.jpeg)
+![UTM Shared Network Selector](rede\_privada\_maquina\_virtural/assets/utm-config-shared-network.jpeg)
 
 ## 4. Entendendo a Rede Privada
 
 Esta é a topologia de rede que o Parallels Desktop e o UTM utilizam para a rede privada:
 
-![Rede Privada](./assets/pd_preferences_portforward_scheme.png)
+![Rede Privada](rede\_privada\_maquina\_virtural/assets/pd\_preferences\_portforward\_scheme.png)
 
-[Paralles Website](https://download.parallels.com/desktop/v12/docs/pt_BR/Parallels%20Desktop%20User%27s%20Guide/33341.htm)
+[Paralles Website](https://download.parallels.com/desktop/v12/docs/pt\_BR/Parallels%20Desktop%20User's%20Guide/33341.htm)

@@ -2,11 +2,10 @@
 
 ## Antônio Martins e Enricco Gemha
 
-### 1. Mantenedores
+### 1. Contribuidores
 
-- Antônio Martins: [GitHub](https://github.com/AntonioAEMartins)
-
-- Enricco Gemha: [GitHub](https://github.com/G3mha)
+* Antônio Martins: [AntonioAEMartins](https://github.com/AntonioAEMartins)
+* Enricco Gemha: [G3mha](https://github.com/G3mha)
 
 ### 2. Introdução
 
